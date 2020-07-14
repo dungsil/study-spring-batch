@@ -6,6 +6,9 @@ plugins {
   id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 }
 
+group 'dev.redpanda.spring.batch'
+version '0.1.0'
+
 repositories {
   jcenter()
 }

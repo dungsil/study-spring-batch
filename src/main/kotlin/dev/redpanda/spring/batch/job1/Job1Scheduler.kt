@@ -1,13 +1,12 @@
 /*! Copyright (c) 2020 LSWare Inc. All rights reserved */
 package dev.redpanda.spring.batch.job1
 
-import dev.redpanda.spring.batch.Job.JOB1
+import dev.redpanda.spring.batch.JobName.JOB1
 import org.springframework.batch.core.Job
 import org.springframework.batch.core.JobParametersBuilder
 import org.springframework.batch.core.launch.JobLauncher
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
-import java.time.LocalDateTime
 import java.time.LocalDateTime.now
 import kotlin.random.Random
 
