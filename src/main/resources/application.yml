@@ -1,6 +1,6 @@
 spring:
   batch:
-    job.enabled: true # 스케쥴러를 통해 동작하기 때문에 false
+    job.enabled: false # 스케쥴러를 통해 동작하기 때문에 false
   datasource:
     url: jdbc:postgresql://localhost:8264/postgres
     username: postgres
