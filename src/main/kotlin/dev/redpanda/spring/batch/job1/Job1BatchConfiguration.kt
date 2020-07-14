@@ -1,4 +1,3 @@
-/*! Copyright (c) 2020 LSWare Inc. All rights reserved */
 package dev.redpanda.spring.batch.job1
 
 import dev.redpanda.spring.batch.JobName.JOB1
